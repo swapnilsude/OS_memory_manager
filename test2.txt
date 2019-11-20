@@ -1,0 +1,14 @@
+1 malloc 10 /* allocate memory size of 10 */
+2 print /* print the entire memory; show blocks of allocated memory and holes */
+3 malloc 25 /* allocate memory size of 25 */
+4 free 1 /* free the memory allocated in command id 1 */
+5 print /* print the entire memory; should show blocks of allocated memory and holes */
+6 malloc 80
+7 malloc 50
+8 Malloc 2
+9 test
+10 free 6
+11 free 1
+12 print
+13 free 7
+14 print
