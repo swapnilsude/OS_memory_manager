@@ -6,7 +6,7 @@ The manager reads an input file which contains set of “malloc”, “free” a
 Refer test2.txt for example content.     
 The memory manager here implements worst fit algorithm. The memory manager is to be started with the command “mem_mgr<input  file><mem_pool_size>”.            
 &nbsp;&nbsp;&nbsp;&nbsp;mem_pool_size is  the size  of memory available when the program starts.                
-The program can handle the comments (enclosed within /* */ or starting with //) in the <input file>. When a hole is created as a result of free command and the hole is adjacent to another hole then the two holes are coalesced  into  a  larger  hole. Memory manager assumes that the start address is 0.         
+The program can handle the comments (enclosed within /* */ or starting with //) in the input file. When a hole is created as a result of free command and the hole is adjacent to another hole then the two holes are coalesced  into  a  larger  hole. Memory manager assumes that the start address is 0.         
 
 ### To create binary file file:
     make all
